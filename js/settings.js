@@ -46,7 +46,7 @@ const pgData = [
     },
     {
         pgNum: 2,
-        title: "-->",
+        title: ">",
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,
@@ -58,7 +58,7 @@ const pgData = [
     },
     {
         pgNum: 3,
-        title: "-->",
+        title: ">",
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,
@@ -69,7 +69,7 @@ const pgData = [
     },
     {
         pgNum: 4,
-        title: "-->",
+        title: ">",
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,
@@ -80,7 +80,7 @@ const pgData = [
     },
     {
         pgNum: 5,
-        title: "-->",
+        title: ">",
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,

@@ -1,5 +1,6 @@
 body{
 	background-color: #060612;
+	background-image: linear-gradient(black,transparent,black);
 	color: white;
 	font-family: sans-serif;
 }
@@ -35,6 +36,7 @@ body{
 #authorNotes {
   font-family: serif;
   background-color:#060612;
+  background-image: radial-gradient(transparent,black);
   border: 3px groove #EDE99C;
   color: #EDE99C;
   margin: auto;
