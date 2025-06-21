@@ -1,0 +1,70 @@
+body{
+	background-color: #060612;
+	color: white;
+	font-family: sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.comicPage img{
+	border: 4px solid #EDE99C;
+	margin: 5px;
+}
+
+.writePageTitle{
+	color: #EDE99C;
+	font-family: serif;
+	font-style: italic;
+
+}
+.writeNav img{
+	margin: 5px;
+}
+.comicNav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+#authorNotes {
+  font-family: serif;
+  background-color:#060612;
+  border: 3px groove #EDE99C;
+  color: #EDE99C;
+  margin: auto;
+  padding: 3px;
+  width: 900px;
+  max-width: 98%;
+}
+
+.navHeader a{
+	text-decoration: none;
+	font-family: sans-serif;
+	padding: 5px;
+	margin: 2px;
+	border: groove white 2px;
+	box-shadow: #C37484 1px 1px;
+}
+
+.navHeader a:hover{
+	color: #EDE99C;
+	border-color: #EDE99C;
+	box-shadow: #43225B 1px 3px;
+}
+
+
+.pageFooter{
+	color: #301944;
+	font-size: 9px;
+}
+
+.pageFooter a:hover{
+	border: groove #EDE99C 2px;
+	box-shadow: #43225B 1px 3px;	
+}

@@ -1,9 +1,47 @@
 <html>
 	<head>
-	<title> The Last Sea</title>
-	</head>
-	
-	<body>
-		<h1>Hi </h1>
-	</body>
+    	<meta charset="UTF-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    	<title>The Last Sea - Read</title>
+    	<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+        <script type="text/javascript" defer>
+            function _changeNavColor(i){
+                switch(i){
+                    case 0:
+                        document.getElementById("read").style.color="#EDE99C";
+                    break;
+                    case 1:
+                        document.getElementById("about").style.color="#EDE99C";
+                    break;
+                    case 2:
+                        document.getElementById("characters").style.color="#EDE99C";
+                    break;
+                }
+            }
+        </script>
+    </head>
+
+    <body onload="_changeNavColor(0)">
+    	<div align="center">
+    		<div class="navHeader"></div>
+            <div id="showComic">
+                <div class="writePageTitle"></div>
+                <div class="writeNav"></div>
+                <div class="writePageClickable"></div>  
+                <div class="writeNav"></div>
+            </div>
+
+            <div id="authorNotes">
+                <div class="writeAuthorNotes"></div>
+            </div>
+
+            <div class="pageFooter"></div>
+        </div>
+
+    	<script src="js/settings.js" defer></script>
+        <script src="js/show_comic.js" defer></script>
+        <script src="js/write_header.js" defer></script>
+        <script src="js/write_footer.js" defer></script>
+    </body>
+
 </html>

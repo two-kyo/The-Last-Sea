@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>The Last Sea - Characters</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <script type="text/javascript" defer>
+            function _changeNavColor(i){
+                switch(i){
+                    case 0:
+                        document.getElementById("read").style.color="#EDE99C";
+                    break;
+                    case 1:
+                        document.getElementById("about").style.color="#EDE99C";
+                    break;
+                    case 2:
+                        document.getElementById("characters").style.color="#EDE99C";
+                    break;
+                }
+            }
+        </script>
+</head>
+<body onload="_changeNavColor(2)">
+	<div align="center">
+    		<div class="navHeader"></div>
+    		<div class="pageFooter"></div>
+    	</div>
+
+    	<script src="js/write_header.js" type="text/javascript" defer></script>
+    	<script src="js/write_footer.js" type="text/javascript" defer></script>
+</body>
+</html>
