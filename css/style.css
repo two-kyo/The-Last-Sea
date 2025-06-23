@@ -22,10 +22,6 @@ body{
 .aboutArticle img{
 	width: 350px;
 	padding: 10px;
-	margin: auto;
-}
-.aboutArticle img:hover{
-	border: groove #EDE99C 4px;
 }
 
 .comicPage img{
@@ -62,6 +58,15 @@ body{
   max-width: 98%;
 }
 
+.aboutArticle a:hover{
+	text-decoration: underline;
+}
+.aboutArticle a{
+	color: #EDE99C;
+	text-decoration: none;
+	font-style: oblique;
+}
+
 .navHeader a{
 	text-decoration: none;
 	font-family: sans-serif;
@@ -86,4 +91,30 @@ body{
 .pageFooter a:hover{
 	border: groove #EDE99C 2px;
 	box-shadow: #43225B 1px 3px;	
+}
+
+.characterArticle{
+	margin:15px;
+	display: ruby;
+}
+
+.character{
+	width: 35%;
+	margin:10px;
+	border: groove #EDE99C 4px;
+	color: #EDE99C;
+	font-family: serif;
+	display: inline-block;
+}
+
+.characterText{
+	margin-left: 200px;
+	margin-top: -200px;
+}
+
+.character img{
+	width: 150px;
+	margin: 15px;
+	padding: 5px;
+	border: groove #EDE99C 4px;
 }
