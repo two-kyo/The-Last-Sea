@@ -84,7 +84,7 @@ const pgData = [
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,
-        authorNotes: `<p>Bit us humans atre a resilient species, the strongest of us managed to adapt, the boats, once used merely for transportation will now be our homes, our way of living will change completely, but we'll live.<br><br></p>
+        authorNotes: `<p>But us humans atre a resilient species, the strongest of us managed to adapt, the boats, once used merely for transportation will now be our homes, our way of living will change completely, but we'll live.<br><br></p>
             <strong>Thats why we're here.</strong>
             `,
     },
