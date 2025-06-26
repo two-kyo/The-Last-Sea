@@ -17,6 +17,7 @@ body{
 	border: groove #EDE99C 4px;
 	margin: 15px;
 	padding: 10px;
+	display: inline-grid;
 }
 
 .aboutArticle img{
