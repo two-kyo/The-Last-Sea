@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 5; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 7; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -39,7 +39,7 @@ const pgData = [
         title: "The Start",
         date: writeDate(2025, 6, 16),
         altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
-        imageFiles: 1, //how many image files this page is split into
+        imageFiles: 2, //how many image files this page is split into
         authorNotes: ` <strong style="align: center;"> <br>"Let me tell you a story..."</strong>
                        <p>One that isn't based on fiction, something that actually happened.</p>
             `,
@@ -86,6 +86,24 @@ const pgData = [
         imageFiles: 1,
         authorNotes: `<p>But us humans atre a resilient species, the strongest of us managed to adapt, the boats, once used merely for transportation will now be our homes, our way of living will change completely, but we'll live.<br><br></p>
             <strong>Thats why we're here.</strong>
+            `,
+    },
+    {
+        pgNum: 6,
+        title: "ACT 1",
+        date: writeDate(2025, 6, 26),
+        altText: "Nixie Fischer",
+        imageFiles: 1,
+        authorNotes: `<p><i>A strange girl is fishing...<br><br>She seems too have found something...<br><br>Her name is <strong>Nixie Fischer</strong></i></p>
+            `,
+    },
+    {
+        pgNum: 7,
+        title: "ACT 1 - Strange Object",
+        date: writeDate(2025, 6, 26),
+        altText: "",
+        imageFiles: 1,
+        authorNotes: `<p>A strange object shines under-water <br>It's too dark and the water is too cloudy to see what it is precisely.<br><br>Maybe Nixie can catch it with her <i>Fishing Rod</i></p>
             `,
     },
 ];
