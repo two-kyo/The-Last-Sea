@@ -52,7 +52,7 @@ const pgData = [
         imageFiles: 1,
         authorNotes: ` <strong style="align: center;"> <br>Many years ago...</strong>
                        <p>Humans walked on what we used to call "Land".<br>
-                       Places so high the water could'nt cover them.<br><br>
+                       Places so high the water couldn't cover them.<br><br>
                        At the time, a privilegue that went unnoticed, until one day it was taken away.</p> 
             `,
     },
@@ -64,7 +64,7 @@ const pgData = [
         imageFiles: 1,
         authorNotes: ` <strong style="align: center;"> <br>One Day...</strong>
                        <p>The planet began to tremble.<br><br>
-                       Cities crumbled. Statues cracked. The wolrd fell into chaos.</p>
+                       Cities crumbled. Statues cracked. The world fell into chaos.</p>
             `,
     },
     {
