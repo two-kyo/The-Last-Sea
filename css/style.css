@@ -39,6 +39,11 @@ body{
 .writeNav img{
 	margin: 5px;
 }
+
+.writePageClickable{
+	display: ruby;
+}
+
 .comicNav {
   display: flex;
   flex-wrap: nowrap;
@@ -100,7 +105,7 @@ body{
 }
 
 .character{
-	width: 35%;
+	width: 45%;
 	margin:10px;
 	border: groove #EDE99C 4px;
 	color: #EDE99C;

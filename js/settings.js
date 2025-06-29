@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 7; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 9; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -29,7 +29,7 @@ const thumbDefault = "default" //name of the default thumbnail that displays whe
 const navText = ["First","Previous","Next","Last"]; //alt text for your nav images, or just the text that shows up if you're not using images
 const navFolder = "img/comicnav"; //directory where nav images are stored
 const navExt = "png" //file extension of nav images
-const navScrollTo = "#showComic"; //id of the div you want the page to automatically scroll to when you click to the next comic. will turn off if you delete text between quotation marks
+const navScrollTo = ""; //id of the div you want the page to automatically scroll to when you click to the next comic. will turn off if you delete text between quotation marks
 
 if (pg == 0) {pg = 1;}
 
@@ -40,8 +40,8 @@ const pgData = [
         date: writeDate(2025, 6, 16),
         altText: "", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 2, //how many image files this page is split into
-        authorNotes: ` <strong style="align: center;"> <br>"Let me tell you a story..."</strong>
-                       <p>One that isn't based on fiction, something that actually happened.</p>
+        authorNotes: ` <strong style="align: center;"> <br>"Huh... why are we here?... Alright, let me tell you a story..."</strong>
+                        <p>Not a fictional one this time, something that actually happened.</p>
             `,
     },
     {
@@ -63,8 +63,8 @@ const pgData = [
         altText: "",
         imageFiles: 1,
         authorNotes: ` <strong style="align: center;"> <br>One Day...</strong>
-                       <p>The planet began to shake violently, like never before.<br><br>
-                       Everything that once stood fell, for an instant it seemed to be the end of all.</p>
+                       <p>The planet began to tremble.<br><br>
+                       Cities crumbled. Statues cracked. The wolrd fell into chaos.</p>
             `,
     },
     {
@@ -74,8 +74,8 @@ const pgData = [
         altText: "",
         imageFiles: 1,
         authorNotes: ` <strong style="align: center;"> <br>Soon...</strong>
-                       <p>The water level began to rise, slowly but endlessly.<br><br>
-                       The world as we knew it had ended there.</p>
+                       <p>Then, when we thought it was over, the water level began to rise, slowly but endlessly.<br><br>
+                       And just like that the world as we knew it had ended there.</p>
             `,
     },
     {
@@ -84,7 +84,7 @@ const pgData = [
         date: writeDate(2025, 6, 16),
         altText: "",
         imageFiles: 1,
-        authorNotes: `<p>But us humans atre a resilient species, the strongest of us managed to adapt, the boats, once used merely for transportation will now be our homes, our way of living will change completely, but we'll live.<br><br></p>
+        authorNotes: `<p>But we humans are stubborn. The strongest of us took the ships once merely used for transportation and tavel, now repurposed for survival.
             <strong>Thats why we're here.</strong>
             `,
     },
@@ -94,7 +94,7 @@ const pgData = [
         date: writeDate(2025, 6, 26),
         altText: "Nixie Fischer",
         imageFiles: 1,
-        authorNotes: `<p><i>A strange girl is fishing...<br><br>She seems too have found something...<br><br>Her name is <strong>Nixie Fischer</strong></i></p>
+        authorNotes: `<p><i>There's a girl fishing on a boat close to the mothership...<br><br>She seems too have found something...<br><br>Her name is <strong>Nixie Fischer</strong></i></p>
             `,
     },
     {
@@ -103,7 +103,25 @@ const pgData = [
         date: writeDate(2025, 6, 26),
         altText: "",
         imageFiles: 1,
-        authorNotes: `<p>A strange object shines under-water <br>It's too dark and the water is too cloudy to see what it is precisely.<br><br>Maybe Nixie can catch it with her <i>Fishing Rod</i></p>
+        authorNotes: `<p>A strange object shines under-water <br>It's too dark and the water is too cloudy to see what it is precisely.<br><br>Nixie had been trying to catch it with her <i>Fishing Rod</i></p>
+            `,
+    },
+    {
+        pgNum: 8,
+        title: "ACT 1 - Got it!",
+        date: writeDate(2025, 6, 27),
+        altText: "",
+        imageFiles: 2,
+        authorNotes: `<p>She got it!<br>Seems to be a necklace, with a crystal gem in shape of an eye, Nixie seemed very excited to get it back<br>it was dropped overboard a few hours ago, she has been looking for it ever since.</p>
+            `,
+    },
+    {
+        pgNum: 9,
+        title: "ACT 1 - Deep Diving",
+        date: writeDate(2025, 6, 27),
+        altText: "",
+        imageFiles: 2,
+        authorNotes: `<p>She put on the necklace, and then let herself fall into the water.<br>All sound stopped<br>The deeper she dived, the darker her surroundings became, and as in response her necklace shone brighter and brighter.</p>
             `,
     },
 ];
